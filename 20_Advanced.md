@@ -7,6 +7,8 @@
 6. Working with 'refs'
 7. Controlled Vs Uncontrolled Components
 
+
+
 #### 1. JSX Limitations & Workarounds:
 ```js
 return(
@@ -157,3 +159,28 @@ return(
 
 #### 6. Working with refs:
 * Refs are actually quite powerful, but in their most basic form they allow us to get access to other DOM elements and work with them.
+
+
+### Handling Side Effects, Using Reducers & Using the Context API:
+1. Introduction
+2. What are "Side Effects" & Introducing useEffect
+3. Using the useEffect() Hook
+4. useEffect and Dependencies
+5. What to add and not to add as Dependencies
+6. Using the useEffect cleanup function
+7. useEffect Summary
+8. Introducing useReducer & reducers in general
+9. using the useReducer() Hook
+10. useReducer & useEffect
+11. Adding Nested Properties As Dependencies To useEffect
+12. useReducer vs useState for State Management
+13. Introducing React Context (Context API)
+14. Using the React Context API
+15. Tapping Into Context with the useContext Hook
+16. Making Context Dynamic
+17. Building & Using a Custom Context Provider Component
+18. React Context Limitations
+19. Learning the "Rules of Hooks"
+20. Refactoring an Input Component
+21. Diving into "Forward Refs"
+
