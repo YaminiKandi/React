@@ -43,7 +43,6 @@ export default App;
 * The above is following an imperative approach.
 * Because, we are giving clear step by step instructions, what javascript and browser should be doing.
 
-
 ---
 
 #### JSX
