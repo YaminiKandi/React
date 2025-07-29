@@ -36,13 +36,15 @@
 * At runtime React Application take over this div tag and it ultimately Responsible for the UI.
 
 ### src:
-In this folder we place all the Heart of our Application, we place complete code in this folder.
-| files | Description |
-| :---: | :---------: |
-| index.js | This is the Javascript entry point or Starting point for our React Application, whenever we give npm start, it starts from Here... |
-| App.js | This is the App Component, represents the `View` that we have seen on Browser |
-| App.test.js | This is for simple Test cases |
-| App.css | This file is for Styling. The css file contain class which are applied to app component |
-| index.css | we also have index.css file which apply styles for body tag |
-| logo.svg | which is referred in app component |
+* This contains all the essential component files required to ensure that a React app functions. 
+* Notice that there are some files and were automatically created when we use the npm command Create React app to build a starter React app. 
+* As a React developer, we probably spend most of your time within this folder.
+* `index.js` and `app.js` - render the root components
+* `App.test.js`, `setupTests.js`, and `reportsWebVitals.js` - app's performance and testing. 
+* `logo.svg` - displayed on the start page of the default app
+* `.gitignore` - using version control and used to specify what files and folders must be excluded from a project.  
+* `README.md` - a markdown file that gives some basic information. Developers use this when they want to share the project's code on sites like GitHub. 
+* `package.json` - lists information pertaining to my app, which allows npm to run several scripts and perform various tasks in the app itself.
+* `package-loc.json` - holds the list of all dependencies with a specific versions. 
+* `package.json` - helps npm rebuild the app on another machine. Or if we delete the node modules folder with all the files that our project needs to run, the package-loc.json file has all the information for npm to be able to rebuild those files reliably. This file is there to ensure the npm tracks all the modules installations properly.
 
