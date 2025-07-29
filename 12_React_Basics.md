@@ -1,3 +1,32 @@
+### React Project Structure:
+
+#### node_modules:
+* We can think of this folder as a repository
+* The node modules folder is automatically added when we install a specific npm package
+* Developers use packages when they want to add a piece of functionality that someone else coded and made available to other developers via the npm ecosystem.
+
+#### public:
+* It contains the assets that will be displayed to the user in our app.
+* For example, image files for logos, the favicon, which displays an icon in the browser tab, and the robots.txt file, which is used for search engine optimization.
+* Also, there is a manifest.json file, which is used to provide some metadata to a device when you're React powered web app is installed on it. 
+
+#### index.html:
+* A React app gets injected into the specific elements inside the body of the index HTML file.
+* Based on changes happening inside our React app, it injects those updates in that same div of index HTML
+
+#### src:
+* This contains all the essential component files required to ensure that a React app functions. 
+* Notice that there are some files and were automatically created when we use the npm command Create React app to build a starter React app. 
+* As a React developer, we probably spend most of your time within this folder.
+* `index.js` and `app.js` - render the root components
+* `App.test.js`, `setupTests.js`, and `reportsWebVitals.js` - app's performance and testing. 
+* `logo.svg` - displayed on the start page of the default app
+* `.gitignore` - using version control and used to specify what files and folders must be excluded from a project.  
+* `README.md` - a markdown file that gives some basic information. Developers use this when they want to share the project's code on sites like GitHub. 
+* `package.json` - lists information pertaining to my app, which allows npm to run several scripts and perform various tasks in the app itself.
+* `package-loc.json` - holds the list of all dependencies with a specific versions. 
+* `package.json` - helps npm rebuild the app on another machine. Or if we delete the node modules folder with all the files that our project needs to run, the package-loc.json file has all the information for npm to be able to rebuild those files reliably. This file is there to ensure the npm tracks all the modules installations properly.
+
 ### Contents:
 1. React
 2. Components 
