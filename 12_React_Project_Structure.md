@@ -25,11 +25,13 @@
 4. logo512.png 
 5. manifest.json 
 6. robots.txt
+* It contains the assets that will be displayed to the user in our app.
+* For example, image files for logos, the favicon, which displays an icon in the browser tab, and the robots.txt file, which is used for search engine optimization.
+* Also, there is a manifest.json file, which is used to provide some metadata to a device when you're React powered web app is installed on it. 
 
 ### index.html:
 * It is Most Important and Only html file in our entire application. We are building single page application and this is that single page.
 * The view may be dynamically changed in browser but this is the file that provides VIEW.
-* Maximum we dont add any code in this file, may be some changes in head section but not in body tag.
 * we are not responsible to control the UI that is taken care by ReactJS. For that purpose we have one DIV Tag with `id="root"`.
 * At runtime React Application take over this div tag and it ultimately Responsible for the UI.
 
